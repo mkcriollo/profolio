@@ -1,0 +1,91 @@
+.logo-mc {
+    width: 90px;
+    height: 60px;
+}
+
+/* #introduction {
+    background-color: black;
+} */
+
+#introduction::before {
+    content: "MC";
+    color: rgb(52, 45, 45);
+	-webkit-text-stroke: 3px white;
+	text-shadow: 0px 2px 4px blue;
+}
+
+#creative {
+    color: #d6a02b
+}
+
+#navigation  a:hover {
+    border-bottom: 1px solid #516790;
+    /* margin-bottom: 5px; */
+}
+
+#about::before {
+    border: 10px solid #3e4371;
+}
+
+#work-list::before {
+    border: 10px solid #3e4371;
+}
+
+#contact-wrapper::before {
+    border: 10px solid #3e4371;
+}
+
+#developer {
+    color: #516790;
+}
+
+#resume {
+    color: #d6a02b;
+    border: 2px solid #d6a02b;
+}
+
+#checkitout {
+    color: #d6a02b
+}
+
+#checkitout::after {
+    background-color: #d6a02b
+}
+
+/* #about {
+    background-color: #333;
+} */
+
+#project-link {
+    color: #516790;
+}
+
+#project-link::after {
+    background-color:#516790;
+}
+
+#icons {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#links-mike {
+    color: #333;
+}
+
+#links-mike:hover {
+    color: #d6a02b;
+}
+
+#link-holder {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+#view-more {
+    color: #516790;
+    border: 2px solid #516790;
+}
