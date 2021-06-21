@@ -1,250 +1,401 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Personal</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Free HTML5 Template plus Photoshop design">
-  <meta name="keywords" content="free html template, portfolio, html5, sass, jquery">
-  <meta name="author" content="Bucky Maler">
-  <link rel="stylesheet" href="assets/css/edit.css">
-  <link rel="stylesheet" href="assets/css/main.css">
-</head>
-<body>
+  <head>
+    <title>Personal</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Free HTML5 Template plus Photoshop design"
+    />
+    <meta
+      name="keywords"
+      content="free html template, portfolio, html5, sass, jquery"
+    />
+    <meta name="author" content="Bucky Maler" />
+    <link rel="stylesheet" href="assets/css/edit.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <!-- SECTION: Splashscreen -->
+    <div class="splashscreen">
+      <div class="preloader">
+        <span class="preloader__text">Loading</span>
+      </div>
+    </div>
+    <!-- END SECTION: Splashscreen -->
+    <!-- SECTION: Navigation -->
+    <div id="top" class="navigation">
+      <div class="navigation__wrapper wrapper--large">
+        <a class="navigation__logo logo" href="#0"
+          ><img src="./assets/img/logomc.png" alt="" class="logo-mc"
+        /></a>
+        <nav class="navigation__container">
+          <ul class="navigation__list" id="navigation">
+            <li><a href="#0">Home</a></li>
+            <li><a href="#work">Portfolio</a></li>
+            <li><a href="#blog">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <a
+          class="navigation__cta button"
+          href="https://docs.google.com/document/d/e/2PACX-1vRHAG6YdS91N7zsiuN0AJHh3ZyoiehRFuBG3jTs0eWiK0n4w-AO4SftuVr3y_lt_96a7JrSc5pU1SHg/pub"
+          id="resume"
+          >Resume</a
+        >
+        <div class="navigation__burger">
+          <span class="navigation__burger-el navigation__burger-el--top"></span>
+          <span
+            class="navigation__burger-el navigation__burger-el--middle"
+          ></span>
+          <span
+            class="navigation__burger-el navigation__burger-el--bottom"
+          ></span>
+        </div>
+      </div>
+    </div>
+    <!-- END SECTION: Navigation -->
+    <!-- SECTION: Intro -->
+    <header class="header">
+      <div class="introduction" id="introduction">
+        <h1 class="introduction__content">
+          <span class="introduction__content-el introduction__content-el--name"
+            >Mike Criollo</span
+          >
+          <span
+            class="
+              introduction__content-el introduction__content-el--description
+            "
+            id="creative"
+            >Creative</span
+          >
+          <span
+            class="introduction__content-el introduction__content-el--job"
+            id="developer"
+            >Developer</span
+          >
+        </h1>
+        <svg
+          class="introduction__arrow"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          version="1.1"
+          id="Layer_1"
+          x="0"
+          y="0"
+          viewBox="0 0 130 65"
+          xml:space="preserve"
+          enable-background="new 0 0 130 65"
+        >
+          <g
+            transform="translate(0.000000,65.000000) scale(0.100000,-0.100000)"
+          >
+            <path
+              d="M22.2 634c-50-35-40-47 293-349 174-157 323-285 333-285 24 0 635 552 647 585 8 23 6 30-14 46 -13 10-31 19-40 19s-57-37-107-83c-50-45-179-162-287-260l-197-179 -147 134c-319 289-433 388-446 388C50.2 650 34.2 643 22.2 634z"
+            />
+          </g>
+        </svg>
+      </div>
+    </header>
+    <!-- END SECTION: Intro -->
+    <main role="main">
+      <!-- SECTION: About -->
+      <section class="about" id="about">
+        <div class="about__wrapper wrapper--small" id="about">
+          <div class="about__content">
+            <div class="about__content-blurb blurb blurb--framed">
+              <h2 class="blurb__heading">Build Amazing<br />Things</h2>
+              <p class="blurb__copy no-margin">
+                If you just work hard enough at it
+              </p>
+            </div>
+            <p class="about__content-signature">Mike Criollo</p>
+          </div>
+          <img
+            class="about__visual"
+            src="assets/img/mike.jpg"
+            alt="Mike Criollo"
+          />
+        </div>
+      </section>
+      <!-- END SECTION: About -->
+      <!-- SECTION: App Design -->
+      <section class="app-design">
+        <div class="app-design__wrapper wrapper--large">
+          <div class="app-design__content blurb">
+            <h2 class="blurb__heading">About <br />Me</h2>
+            <p class="blurb__copy blurb__copy--tight">
+              Im a software engineer based of New York. With a obession with
+              this beautiful thing we call the internet, I am passionate about
+              building excellent software that improves the lives of those
+              around me. <br />
+              Lets build something AMAZING.
+            </p>
+            <!-- <a class="transform-link" href="#0" id="checkitout">Check it out</a> -->
+          </div>
+        </div>
+        <figure class="app-design__visual"></figure>
+      </section>
+      <!-- END SECTION: App Design -->
+      <!-- SECTION: Web Design -->
+      <section class="web-design">
+        <div class="web-design__wrapper wrapper--small">
+          <div class="web-design__content blurb">
+            <h2 class="blurb__heading">
+              Web Design &<br />
+              Web Development
+            </h2>
+            <p class="blurb__copy blurb__copy--tight">
+              Every website should be built with two primary goals: Firstly, it
+              needs to work across all devices. Secondly, it needs to be fast as
+              possible.
+            </p>
+            <!-- <a class="transform-link" href="#0">Check it out</a> -->
+          </div>
+        </div>
+        <figure class="web-design__visual"></figure>
+      </section>
+      <!-- END SECTION: Web Design -->
+      <!-- SECTION: Work -->
+      <section id="work" class="work">
+        <h2 class="work__heading title">Latest Projects</h2>
+        <div class="work__wrapper wrapper--large">
+          <ul class="work__list" id="work-list">
+            <li class="work__list-el work__list-el--is-active">
+              <div class="work__content">
+                <div class="work__content-blurb blurb blurb--framed">
+                  <h3 class="blurb__heading">iamDUCK<br />JS Game</h3>
+                  <p class="blurb__copy">
+                    A duck in HEll ??? Help the baby duck try to escape hell by
+                    collecting toast spirtes. BEWARE the Reaper!
+                  </p>
+                </div>
+                <a
+                  class="transform-link"
+                  href="https://mkcriollo.github.io/iamduck/"
+                  id="project-link"
+                  >See full project</a
+                >
+              </div>
+              <div class="work__visual">
+                <img src="assets/img/iamduck.gif" alt="iamDuck" />
+              </div>
+            </li>
+            <li class="work__list-el">
+              <div class="work__content">
+                <div class="work__content-blurb blurb blurb--framed">
+                  <h3 class="blurb__heading">NOISER<br />Web Design</h3>
+                  <p class="blurb__copy">
+                    Noiser is a SoundClound Clone. A music streaming platform
+                    for both listeners and creators, where artist are given the
+                    freedom to upload a variety of music to the cloud and have
+                    discovered and enjoyed by other artist or fans.
+                  </p>
+                </div>
+                <a
+                  class="transform-link"
+                  href="https://noiser.herokuapp.com/#/"
+                  id="project-link"
+                  >See full project</a
+                >
+              </div>
+              <div class="work__visual">
+                <img src="assets/img/noiser.gif" alt="noiser" />
+              </div>
+            </li>
+            <li class="work__list-el">
+              <div class="work__content">
+                <div class="work__content-blurb blurb blurb--framed">
+                  <h3 class="blurb__heading">
+                    Progress Slacker<br />Web Design
+                  </h3>
+                  <p class="blurb__copy">
+                    Enter projectSlacker. The unofficially-official©
+                    meme-generator designed to compliment and enhance the core
+                    app/Academy suite of educational tools and resources.
+                  </p>
+                </div>
+                <a
+                  class="transform-link"
+                  href="http://progress-slacker.herokuapp.com/login"
+                  id="project-link"
+                  >See full project</a
+                >
+              </div>
+              <div class="work__visual">
+                <img
+                  src="assets/img/progressslacker.gif"
+                  alt="progressslacker"
+                />
+              </div>
+            </li>
+          </ul>
+          <ul class="work__navigation">
+            <li class="work__navigation-el work__navigation-el--is-active"></li>
+            <li class="work__navigation-el"></li>
+            <li class="work__navigation-el"></li>
+          </ul>
+        </div>
+      </section>
+      <!-- END SECTION: Work -->
+      <!-- SECTION: Blog -->
+      <section id="blog" class="blog">
+        <h2 class="blog__heading title">Skills</h2>
+        <div class="blog__wrapper wrapper--large">
+          <article class="blog__post">
+            <div class="blog__post-thumbnail">
+              <img src="assets/img/react.png" alt="react" />
+            </div>
+            <div class="blog__post-excerpt">
+              <h3>REACT</h3>
+            </div>
+          </article>
+          <article class="blog__post">
+            <div class="blog__post-thumbnail">
+              <img src="assets/img/JavaScript-logo.png" alt="JavaScript-logo" />
+            </div>
+            <div class="blog__post-excerpt">
+              <h3>Javascript</h3>
+            </div>
+          </article>
+          <article class="blog__post">
+            <div class="blog__post-thumbnail">
+              <img
+                src="assets/img/Ruby-on-rails-development.png"
+                alt="Ruby-on-rails-development"
+              />
+            </div>
+            <div class="blog__post-excerpt">
+              <h3>Ruby On Rails</h3>
+            </div>
+          </article>
+          <article class="blog__post">
+            <div class="blog__post-thumbnail">
+              <img src="assets/img/5848309bcef1014c0b5e4a9a.png" alt="redux" />
+            </div>
+            <div class="blog__post-excerpt">
+              <h3>Redux</h3>
+            </div>
+          </article>
+          <article class="blog__post">
+            <div class="blog__post-thumbnail">
+              <img src="assets/img/postgresql.png" alt="postgresql" />
+            </div>
+            <div class="blog__post-excerpt">
+              <h3>PostgreSQL</h3>
+            </div>
+          </article>
+        </div>
+        <div class="blog__view-more">
+          <a
+            class="button blog__view-more--el"
+            href="https://docs.google.com/document/d/e/2PACX-1vRHAG6YdS91N7zsiuN0AJHh3ZyoiehRFuBG3jTs0eWiK0n4w-AO4SftuVr3y_lt_96a7JrSc5pU1SHg/pub"
+            id="view-more"
+            >View More</a
+          >
+        </div>
+      </section>
+      <!-- END SECTION: Blog -->
+      <!-- SECTION: Contact -->
+      <section id="contact" class="contact">
+        <h2 class="contact__heading title">Contact Me</h2>
+        <div class="contact__wrapper wrapper--large" id="contact-wrapper">
+          <div class="contact__visual">
+            <img src="assets/img/newyork.jpeg" alt="New York" />
+          </div>
+          <!-- Simple form setup: formspree.io -->
+          <form class="contact__form">
+            <div
+              class="contact__form-el contact__form-el--name"
+              id="link-holder"
+            >
+              <img src="./assets/img/github.png" alt="" id="icons" />
+              <a href="https://github.com/mkcriollo" id="links-mike">Github</a>
+            </div>
+            <div
+              class="contact__form-el contact__form-el--email"
+              id="link-holder"
+            >
+              <img src="./assets/img/linkend.png" alt="" id="icons" />
+              <a
+                href="https://www.linkedin.com/in/mike-criollo-b38377206/"
+                id="links-mike"
+                >LinkedIn</a
+              >
+            </div>
+            <div
+              class="contact__form-el contact__form-el--email"
+              id="link-holder"
+            >
+              <img
+                src="./assets/img/angellist.png.crdownload"
+                alt=""
+                id="icons"
+              />
+              <a href="https://angel.co/u/mike-criollo" id="links-mike"
+                >AngelList</a
+              >
+            </div>
+            <div
+              class="contact__form-el contact__form-el--email"
+              id="link-holder"
+            >
+              <img src="./assets/img/mg.png" alt="" id="icons" />
+              <a
+                href="https://docs.google.com/document/d/11eYcLTWL6alnwImB9JyIdGmyC6_hECWRmLkLtucC38s/edit?usp=sharing"
+                id="links-mike"
+                >Resume</a
+              >
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- END SECTION: Contact -->
+    </main>
+    <!-- SECTION: Footer -->
+    <footer class="footer">
+      <div class="footer__wrapper wrapper--large">
+        <p class="footer__copyright no-margin">&copy; 2021 Mike Criollo</p>
+        <a class="footer__logo logo" href="#0">MC</a>
+        <a class="footer__arrow" href="#top">
+          <svg
+            class="footer__arrow-el"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            version="1.1"
+            id="Layer_1"
+            x="0"
+            y="0"
+            viewBox="0 0 130 65"
+            xml:space="preserve"
+            enable-background="new 0 0 130 65"
+          >
+            <g
+              transform="translate(0.000000,65.000000) scale(0.100000,-0.100000)"
+            >
+              <path
+                d="M315.4 365c-336-305-345-315-290-351 18-12 32-14 45-8 10 5 145 123 300 262l281 253 196-178c108-98 237-215 287-260 50-46 98-83 107-83s27 9 40 19c20 16 22 23 14 46 -12 33-623 585-647 585C638.4 650 489.4 522 315.4 365z"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+    </footer>
+    <!-- END SECTION: Footer -->
 
-	<!-- SECTION: Splashscreen -->
-	<div class="splashscreen">
-		<div class="preloader">
-			<span class="preloader__text">Loading</span>
-		</div>
-	</div>
-	<!-- END SECTION: Splashscreen -->
-	<!-- SECTION: Navigation -->
-	<div id="top" class="navigation">
-		<div class="navigation__wrapper wrapper--large">
-			<a class="navigation__logo logo" href="#0"><img src="./assets/img/logomc.png" alt="" class="logo-mc"></a>
-			<nav class="navigation__container">
-				<ul class="navigation__list" id="navigation">
-					<li><a href="#0">Home</a></li>
-					<li><a href="#work">Portfolio</a></li>
-					<li><a href="#blog">Skills</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
-			<a class="navigation__cta button" href="#0" id="resume">Resume</a>
-			<div class="navigation__burger">
-				<span class="navigation__burger-el navigation__burger-el--top"></span>
-				<span class="navigation__burger-el navigation__burger-el--middle"></span>
-				<span class="navigation__burger-el navigation__burger-el--bottom"></span>
-			</div>
-		</div>
-	</div>
-	<!-- END SECTION: Navigation -->
-	<!-- SECTION: Intro -->
-	<header class="header">
-		<div class="introduction" id="introduction">
-			<h1 class="introduction__content">
-				<span class="introduction__content-el introduction__content-el--name">Mike Criollo</span>
-				<span class="introduction__content-el introduction__content-el--description" id="creative">Creative</span>
-				<span class="introduction__content-el introduction__content-el--job" id="developer">Developer</span>
-			</h1>
-			<svg class="introduction__arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0" y="0" viewBox="0 0 130 65" xml:space="preserve" enable-background="new 0 0 130 65"><g transform="translate(0.000000,65.000000) scale(0.100000,-0.100000)"><path d="M22.2 634c-50-35-40-47 293-349 174-157 323-285 333-285 24 0 635 552 647 585 8 23 6 30-14 46 -13 10-31 19-40 19s-57-37-107-83c-50-45-179-162-287-260l-197-179 -147 134c-319 289-433 388-446 388C50.2 650 34.2 643 22.2 634z"/></g></svg>
-		</div>
-	</header>
-	<!-- END SECTION: Intro -->
-	<main role="main">
-		<!-- SECTION: About -->
-		<section class="about" id="about">
-			<div class="about__wrapper wrapper--small" id="about">
-				<div class="about__content">
-					<div class="about__content-blurb blurb blurb--framed">
-						<h2 class="blurb__heading">Build Amazing<br>Things</h2>
-						<p class="blurb__copy no-margin">If you just work hard enough at it</p>
-					</div>
-					<p class="about__content-signature">Mike Criollo</p>
-				</div>
-				<img class="about__visual" src="assets/img/mike.jpg" alt="Mike Criollo">
-			</div>
-		</section>
-		<!-- END SECTION: About -->
-		<!-- SECTION: App Design -->
-		<section class="app-design">
-			<div class="app-design__wrapper wrapper--large">
-				<div class="app-design__content blurb">
-					<h2 class="blurb__heading">About <br>Me</h2>
-					<p class="blurb__copy blurb__copy--tight">Im a software engineer based of New York. With a obession with this beautiful thing we call the internet, I am passionate about building excellent software that improves the lives of those around me.
-						<br/> Lets build something AMAZING. </p>
-					<!-- <a class="transform-link" href="#0" id="checkitout">Check it out</a> -->
-				</div>
-			</div>
-			<figure class="app-design__visual"></figure>
-		</section>
-		<!-- END SECTION: App Design -->
-		<!-- SECTION: Web Design -->
-		<section class="web-design">
-			<div class="web-design__wrapper wrapper--small">
-				<div class="web-design__content blurb">
-					<h2 class="blurb__heading">Web Design &<br> Web Development</h2>
-					<p class="blurb__copy blurb__copy--tight">Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs
-					to be fast as possible.</p>
-					<!-- <a class="transform-link" href="#0">Check it out</a> -->
-				</div>
-			</div>
-			<figure class="web-design__visual"></figure>
-		</section>
-		<!-- END SECTION: Web Design -->
-		<!-- SECTION: Work -->
-		<section id="work" class="work">
-			<h2 class="work__heading title">Latest Projects</h2>
-			<div class="work__wrapper wrapper--large">
-				<ul class="work__list" id="work-list">
-					<li class="work__list-el work__list-el--is-active">
-						<div class="work__content">
-							<div class="work__content-blurb blurb blurb--framed">
-								<h3 class="blurb__heading">iamDUCK<br>JS Game</h3>
-								<p class="blurb__copy">A duck in HEll ??? Help the baby duck try to escape hell by collecting
-								toast spirtes. BEWARE the Reaper!</p>
-							</div>
-							<a class="transform-link" href="https://mkcriollo.github.io/iamduck/" id="project-link">See full project</a>
-						</div>
-						<div class="work__visual">
-							<img src="assets/img/iamduck.gif" alt="iamDuck">
-						</div>
-					</li>
-					<li class="work__list-el">
-						<div class="work__content">
-							<div class="work__content-blurb blurb blurb--framed">
-								<h3 class="blurb__heading">NOISER<br>Web Design</h3>
-								<p class="blurb__copy">Noiser is a SoundClound Clone. A music streaming platform for both listeners and creators, where artist are given the
-								freedom to upload a variety of music to the cloud and have discovered and enjoyed by other artist or fans.</p>
-							</div>
-							<a class="transform-link" href="https://noiser.herokuapp.com/#/" id="project-link">See full project</a>
-						</div>
-						<div class="work__visual">
-							<img src="assets/img/noiser.gif" alt="noiser">
-						</div>
-					</li>
-					<li class="work__list-el">
-						<div class="work__content">
-							<div class="work__content-blurb blurb blurb--framed">
-								<h3 class="blurb__heading">Progress Slacker<br>Web Design</h3>
-								<p class="blurb__copy">Enter projectSlacker. The unofficially-official© meme-generator designed to compliment and enhance the core app/Academy
-								suite of educational tools and resources.</p>
-							</div>
-							<a class="transform-link" href="http://progress-slacker.herokuapp.com/login" id="project-link">See full project</a>
-						</div>
-						<div class="work__visual">
-							<img src="assets/img/progressslacker.gif" alt="progressslacker">
-						</div>
-					</li>
-				</ul>
-				<ul class="work__navigation">
-					<li class="work__navigation-el work__navigation-el--is-active"></li>
-					<li class="work__navigation-el"></li>
-					<li class="work__navigation-el"></li>
-				</ul>
-			</div>
-		</section>
-		<!-- END SECTION: Work -->
-		<!-- SECTION: Blog -->
-		<section id="blog" class="blog">
-			<h2 class="blog__heading title">Skills</h2>
-			<div class="blog__wrapper wrapper--large">
-				<article class="blog__post">
-					<div class="blog__post-thumbnail">
-						<img src="assets/img/react.png" alt="react">
-					</div>
-					<div class="blog__post-excerpt">
-						<h3>REACT</h3>
-					</div>
-				</article>
-				<article class="blog__post">
-					<div class="blog__post-thumbnail">
-						<img src="assets/img/JavaScript-logo.png" alt="JavaScript-logo">
-					</div>
-					<div class="blog__post-excerpt">
-						<h3>Javascript</h3>
-					</div>
-				</article>
-				<article class="blog__post">
-					<div class="blog__post-thumbnail">
-						<img src="assets/img/Ruby-on-rails-development.png" alt="Ruby-on-rails-development">
-					</div>
-					<div class="blog__post-excerpt">
-						<h3>Ruby On Rails</h3>
-					</div>
-				</article>
-				<article class="blog__post">
-					<div class="blog__post-thumbnail">
-						<img src="assets/img/5848309bcef1014c0b5e4a9a.png" alt="redux">
-					</div>
-					<div class="blog__post-excerpt">
-						<h3>Redux</h3>
-					</div>
-				</article>
-				<article class="blog__post">
-					<div class="blog__post-thumbnail">
-						<img src="assets/img/postgresql.png" alt="postgresql">
-					</div>
-					<div class="blog__post-excerpt">
-						<h3>PostgreSQL</h3>
-					</div>
-				</article>
-			</div>
-			<div class="blog__view-more">
-				<a class="button blog__view-more--el" href="https://docs.google.com/document/d/11eYcLTWL6alnwImB9JyIdGmyC6_hECWRmLkLtucC38s/edit?usp=sharing" id="view-more">View More</a>
-			</div>
-		</section>
-		<!-- END SECTION: Blog -->
-		<!-- SECTION: Contact -->
-		<section id="contact" class="contact">
-			<h2 class="contact__heading title">Contact Me</h2>
-			<div class="contact__wrapper wrapper--large" id="contact-wrapper">
-				<div class="contact__visual">
-					<img src="assets/img/newyork.jpeg" alt="New York">
-				</div>
-				<!-- Simple form setup: formspree.io -->
-				<form class="contact__form">
-					<div class="contact__form-el contact__form-el--name" id="link-holder">
-						<img src="./assets/img/github.png" alt="" id="icons">
-						<a href="https://github.com/mkcriollo" id="links-mike">Github</a>
-					</div>
-					<div class="contact__form-el contact__form-el--email" id="link-holder">
-						<img src="./assets/img/linkend.png" alt="" id="icons">
-						<a href="https://www.linkedin.com/in/mike-criollo-b38377206/" id="links-mike">LinkedIn</a>
-					</div>
-					<div class="contact__form-el contact__form-el--email" id="link-holder">
-						<img src="./assets/img/angellist.png.crdownload" alt="" id="icons">
-						<a href="https://angel.co/u/mike-criollo" id="links-mike">AngelList</a>
-					</div>
-					<div class="contact__form-el contact__form-el--email" id="link-holder">
-						<img src="./assets/img/mg.png" alt="" id="icons">
-						<a href="https://docs.google.com/document/d/11eYcLTWL6alnwImB9JyIdGmyC6_hECWRmLkLtucC38s/edit?usp=sharing" id="links-mike">Resume</a>
-					</div>
-				</form>
-			</div>
-		</section>
-		<!-- END SECTION: Contact -->
-	</main>
-	<!-- SECTION: Footer -->
-	<footer class="footer">
-		<div class="footer__wrapper wrapper--large">
-			<p class="footer__copyright no-margin">&copy; 2021 Mike Criollo</p>
-			<a class="footer__logo logo" href="#0">MC</a>
-			<a class="footer__arrow" href="#top">
-				<svg class="footer__arrow-el" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0" y="0" viewBox="0 0 130 65" xml:space="preserve" enable-background="new 0 0 130 65"><g transform="translate(0.000000,65.000000) scale(0.100000,-0.100000)"><path d="M315.4 365c-336-305-345-315-290-351 18-12 32-14 45-8 10 5 145 123 300 262l281 253 196-178c108-98 237-215 287-260 50-46 98-83 107-83s27 9 40 19c20 16 22 23 14 46 -12 33-623 585-647 585C638.4 650 489.4 522 315.4 365z"/></g></svg>
-			</a>
-		</div>
-	</footer>
-	<!-- END SECTION: Footer -->
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	<!-- jQuery local fallback -->
-	<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
-	<script src="assets/js/functions-min.js"></script>
-	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID and uncomment -->
-	<!--
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- jQuery local fallback -->
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>'
+        );
+    </script>
+    <script src="assets/js/functions-min.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID and uncomment -->
+    <!--
 	<script>
 	(function(b, o, i, l, e, r) {
 		b.GoogleAnalyticsObject = l;
@@ -261,6 +412,6 @@
 	ga('create', 'UA-XXXXX-X', 'auto');
 	ga('send', 'pageview');
 	</script>
-	-->	
-</body>
+	-->
+  </body>
 </html>
